@@ -2029,7 +2029,7 @@ export default function App() {
   }, [goTo, revealFooter, hideFooter]);
 
   const getTextColor = (block: typeof blocks[0]) => {
-    if (block.id === "01" || block.id === "07") return "#f0ede6";
+    if (block.id === "07") return "#f0ede6";
 
     const hex = block.bg.replace("#", "");
     const normalized = hex.length === 3 ? hex.split("").map((c) => c + c).join("") : hex;
