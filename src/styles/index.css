@@ -1,0 +1,8 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+/* Ocultar cursor nativo en toda la app */
+* {
+  cursor: none !important;
+}
