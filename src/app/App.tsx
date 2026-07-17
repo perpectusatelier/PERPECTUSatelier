@@ -1,9 +1,9 @@
 import { useCallback, useEffect, useRef, useState } from "react";
-import clockFace from "../assets/images/clock-face.webp";
-import tickMarks from "../assets/images/tick-marks.webp";
-import hourHand from "../assets/images/hour-hand.webp";
-import centerCap from "../assets/images/center-cap.webp";
-import imghero from "../assets/images/relojreloj.png";
+import clockFace from "../Assets/Images/clock-face.webp";
+import tickMarks from "../Assets/Images/tick-marks.webp";
+import hourHand from "../Assets/Images/hour-hand.webp";
+import centerCap from "../Assets/Images/center-cap.webp";
+import imghero from "../Assets/Images/relojreloj.png";
 import servicio1 from "../Assets/Images/servicio1.webp";
 import servicio2 from "../Assets/Images/servicio2.webp";
 import servicio3 from "../Assets/Images/servicio3.webp";
@@ -20,7 +20,7 @@ import i5 from "../Assets/Images/i5.webp";
 import mision from "../Assets/Images/mision.webp";
 import vision from "../Assets/Images/vision.webp";
 import { SmoothCursor } from "../app/components/ui/smooth-cursor";
-import workBg from "../assets/images/Fondoreloj.png";
+import workBg from "../Assets/Images/Fondoreloj.png";
 
 const animVideo = new URL("../imports/Anim-inicial.webm", import.meta.url).href;
 const philosophyVideo = new URL("../imports/Backgroundvideo.mp4", import.meta.url).href;
