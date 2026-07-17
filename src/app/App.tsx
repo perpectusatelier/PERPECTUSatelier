@@ -25,6 +25,7 @@ import workBg from "../Assets/Images/Fondoreloj.png";
 const animVideo = new URL("../imports/Anim-inicial.webm", import.meta.url).href;
 const philosophyVideo = new URL("../imports/Backgroundvideo.mp4", import.meta.url).href;
 const statsVideo = new URL("../imports/Creacion.mp4", import.meta.url).href;
+const brandbookPdf = `${import.meta.env.BASE_URL}BRANDBOOK_Perpectus.pdf`;
 
 
 const blocks = [
@@ -1710,7 +1711,7 @@ function Navbar({
         }}
       >
         <button
-          onClick={() => window.open("/BRANDBOOK_Perpectus.pdf", "_blank")}
+          onClick={() => window.open(brandbookPdf, "_blank")}
           style={{
             fontFamily: "DM Mono, monospace",
             fontSize: "12px",
